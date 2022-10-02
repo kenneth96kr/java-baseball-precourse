@@ -7,6 +7,6 @@ public class PlayerOutputView {
 	}
 
 	public static void printThisGameEnd() {
-		System.out.println("3개의 숫자를 모두 맞히셨습니다! 게임 끝");
+		System.out.print("3개의 숫자를 모두 맞히셨습니다! 게임 종료");
 	}
 }

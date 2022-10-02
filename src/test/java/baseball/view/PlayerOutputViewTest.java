@@ -33,7 +33,7 @@ public class PlayerOutputViewTest {
 	@Test
 	void printGameEndOutputTest() {
 		// given
-		String gameEnd = "3개의 숫자를 모두 맞히셨습니다! 게임 끝";
+		String gameEnd = "3개의 숫자를 모두 맞히셨습니다! 게임 종료";
 		// when
 		PlayerOutputView.printThisGameEnd();
 		// then
