@@ -28,7 +28,7 @@ public class GameResult {
 		if (ball == 0) {
 			return strike + BallCount.STRIKE.getBallCount();
 		}
-		return strike + BallCount.STRIKE.getBallCount() + " " + ball + BallCount.BALL.getBallCount();
+		return ball + BallCount.BALL.getBallCount() + " " + strike + BallCount.STRIKE.getBallCount();
 	}
 
 	public int getStrike() {
