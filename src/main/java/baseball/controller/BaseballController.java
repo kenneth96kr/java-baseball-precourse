@@ -31,7 +31,7 @@ public class BaseballController {
 	}
 
 	public static Balls createPlayerBalls() {
-			String input = PlayerInputView.inputGameStatusByUser();
+			String input = PlayerInputView.inputNumbersByUser();
 			return new Balls.BallsBuilder().ballArray(input).build();
 	}
 }
